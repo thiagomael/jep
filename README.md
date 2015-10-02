@@ -2,6 +2,7 @@ This is a fork of the excellent [Java Expression Parser](http://www.cse.msu.edu/
 
 The main changes are:
 - Ability to override basic arithmetic operators (e.g., +, -, *, /). In order to do so, just use
+
     ```java
     parser.addFunction("\"+\"", new CustomAdd());
     ```
